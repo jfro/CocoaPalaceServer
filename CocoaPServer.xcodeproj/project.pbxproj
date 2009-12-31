@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021CAC2F061F26CF00A7A929 /* MansionScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 021CAC2D061F26CF00A7A929 /* MansionScript.h */; };
+		021CAC30061F26CF00A7A929 /* MansionScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAC2E061F26CF00A7A929 /* MansionScript.m */; };
+		021CAD1B061F442000A7A929 /* PSHotSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 021CAD19061F442000A7A929 /* PSHotSpot.h */; };
+		021CAD1C061F442000A7A929 /* PSHotSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CAD1A061F442000A7A929 /* PSHotSpot.m */; };
+		02A6FA0A06231C6A00889E8C /* PSPropBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A6FA0806231C6A00889E8C /* PSPropBag.h */; };
+		02A6FA0B06231C6A00889E8C /* PSPropBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A6FA0906231C6A00889E8C /* PSPropBag.m */; };
+		02AB4A6D0618F38900D4E28B /* PSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB4A6B0618F38900D4E28B /* PSApplication.m */; };
+		02AB4A6E0618F38900D4E28B /* PSApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AB4A6C0618F38900D4E28B /* PSApplication.h */; };
+		02AB4B0A0618F85800D4E28B /* PalaceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB4B090618F85800D4E28B /* PalaceProtocol.m */; };
+		02AB4C140619196D00D4E28B /* ServerMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB4C0C0619196D00D4E28B /* ServerMain.m */; };
+		02AB4C150619196D00D4E28B /* NetSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB4C0D0619196D00D4E28B /* NetSocket.m */; };
+		02AB4C160619196D00D4E28B /* NetSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AB4C0E0619196D00D4E28B /* NetSocket.h */; };
+		02AB4C180619196D00D4E28B /* ServerMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AB4C100619196D00D4E28B /* ServerMain.h */; };
+		02AB4C190619196D00D4E28B /* PSPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB4C110619196D00D4E28B /* PSPacket.m */; };
+		02AB4C1A0619196D00D4E28B /* PSPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AB4C120619196D00D4E28B /* PSPacket.h */; };
+		02BF3EB00625B22800C6874C /* PSProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BF3EAE0625B22800C6874C /* PSProp.h */; };
+		02BF3EB10625B22800C6874C /* PSProp.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BF3EAF0625B22800C6874C /* PSProp.m */; };
+		02EB28D606112F7E00F771DC /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB278C0611235400F771DC /* Utilities.h */; };
+		02EB28D706112F7E00F771DC /* Local.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27700611234E00F771DC /* Local.h */; };
+		02EB28D806112F7E00F771DC /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27790611234E00F771DC /* Structures.h */; };
+		02EB28D906112F7E00F771DC /* PalaceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB289506112ECA00F771DC /* PalaceProtocol.h */; };
+		02EB28DA06112F7E00F771DC /* PSAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27710611234E00F771DC /* PSAsset.h */; };
+		02EB28DB06112F7E00F771DC /* PSMansion.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27730611234E00F771DC /* PSMansion.h */; };
+		02EB28DC06112F7E00F771DC /* PSRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27750611234E00F771DC /* PSRoom.h */; };
+		02EB28DD06112F7E00F771DC /* PSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27770611234E00F771DC /* PSUser.h */; };
+		02EB28DE06112F7E00F771DC /* LogController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27610611234700F771DC /* LogController.h */; };
+		02EB28DF06112F7E00F771DC /* MainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB27630611234700F771DC /* MainController.h */; };
+		02EB28EF06112F9000F771DC /* Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 02EB278B0611235400F771DC /* Utilities.c */; };
+		02EB28F006112F9000F771DC /* PSAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27720611234E00F771DC /* PSAsset.m */; };
+		02EB28F106112F9000F771DC /* PSMansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27740611234E00F771DC /* PSMansion.m */; };
+		02EB28F206112F9000F771DC /* PSRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27760611234E00F771DC /* PSRoom.m */; };
+		02EB28F306112F9000F771DC /* PSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27780611234E00F771DC /* PSUser.m */; };
+		02EB28F406112F9000F771DC /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27620611234700F771DC /* LogController.m */; };
+		02EB28F506112F9000F771DC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB27640611234700F771DC /* MainController.m */; };
+		02EB28F906112F9000F771DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		8D1107280486CEB800E47090 /* CocoaPServer_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* CocoaPServer_Prefix.pch */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021CAC2D061F26CF00A7A929 /* MansionScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MansionScript.h; sourceTree = "<group>"; };
+		021CAC2E061F26CF00A7A929 /* MansionScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MansionScript.m; sourceTree = "<group>"; };
+		021CAD19061F442000A7A929 /* PSHotSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHotSpot.h; sourceTree = "<group>"; };
+		021CAD1A061F442000A7A929 /* PSHotSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHotSpot.m; sourceTree = "<group>"; };
+		02A6FA0806231C6A00889E8C /* PSPropBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPropBag.h; sourceTree = "<group>"; };
+		02A6FA0906231C6A00889E8C /* PSPropBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPropBag.m; sourceTree = "<group>"; };
+		02AB4A6B0618F38900D4E28B /* PSApplication.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PSApplication.m; path = Source/PSApplication.m; sourceTree = "<group>"; };
+		02AB4A6C0618F38900D4E28B /* PSApplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PSApplication.h; path = Source/PSApplication.h; sourceTree = "<group>"; };
+		02AB4B090618F85800D4E28B /* PalaceProtocol.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PalaceProtocol.m; sourceTree = "<group>"; };
+		02AB4C0B0619196D00D4E28B /* PSClient.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PSClient.m; path = Source/NetworkCore/PSClient.m; sourceTree = "<group>"; };
+		02AB4C0C0619196D00D4E28B /* ServerMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = ServerMain.m; path = Source/NetworkCore/ServerMain.m; sourceTree = "<group>"; };
+		02AB4C0D0619196D00D4E28B /* NetSocket.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NetSocket.m; path = Source/NetworkCore/NetSocket.m; sourceTree = "<group>"; };
+		02AB4C0E0619196D00D4E28B /* NetSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NetSocket.h; path = Source/NetworkCore/NetSocket.h; sourceTree = "<group>"; };
+		02AB4C0F0619196D00D4E28B /* PSClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PSClient.h; path = Source/NetworkCore/PSClient.h; sourceTree = "<group>"; };
+		02AB4C100619196D00D4E28B /* ServerMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ServerMain.h; path = Source/NetworkCore/ServerMain.h; sourceTree = "<group>"; };
+		02AB4C110619196D00D4E28B /* PSPacket.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PSPacket.m; path = Source/NetworkCore/PSPacket.m; sourceTree = "<group>"; };
+		02AB4C120619196D00D4E28B /* PSPacket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PSPacket.h; path = Source/NetworkCore/PSPacket.h; sourceTree = "<group>"; };
+		02BF3EAE0625B22800C6874C /* PSProp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSProp.h; sourceTree = "<group>"; };
+		02BF3EAF0625B22800C6874C /* PSProp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSProp.m; sourceTree = "<group>"; };
+		02EB27610611234700F771DC /* LogController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogController.h; sourceTree = "<group>"; };
+		02EB27620611234700F771DC /* LogController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LogController.m; sourceTree = "<group>"; };
+		02EB27630611234700F771DC /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		02EB27640611234700F771DC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		02EB27700611234E00F771DC /* Local.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Local.h; sourceTree = "<group>"; };
+		02EB27710611234E00F771DC /* PSAsset.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSAsset.h; sourceTree = "<group>"; };
+		02EB27720611234E00F771DC /* PSAsset.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSAsset.m; sourceTree = "<group>"; };
+		02EB27730611234E00F771DC /* PSMansion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMansion.h; sourceTree = "<group>"; };
+		02EB27740611234E00F771DC /* PSMansion.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSMansion.m; sourceTree = "<group>"; };
+		02EB27750611234E00F771DC /* PSRoom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSRoom.h; sourceTree = "<group>"; };
+		02EB27760611234E00F771DC /* PSRoom.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSRoom.m; sourceTree = "<group>"; };
+		02EB27770611234E00F771DC /* PSUser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSUser.h; sourceTree = "<group>"; };
+		02EB27780611234E00F771DC /* PSUser.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSUser.m; sourceTree = "<group>"; };
+		02EB27790611234E00F771DC /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		02EB278B0611235400F771DC /* Utilities.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Utilities.c; sourceTree = "<group>"; };
+		02EB278C0611235400F771DC /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		02EB289506112ECA00F771DC /* PalaceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalaceProtocol.h; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* CocoaPServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaPServer_Prefix.pch; path = Source/CocoaPServer_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* CocoaPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021CA559061CCB9900A7A929 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				02AB4C0F0619196D00D4E28B /* PSClient.h */,
+				02AB4C0B0619196D00D4E28B /* PSClient.m */,
+			);
+			name = Unused;
+			sourceTree = "<group>";
+		};
+		02EB273306111B2F00F771DC /* NetworkCore */ = {
+			isa = PBXGroup;
+			children = (
+				02AB4C100619196D00D4E28B /* ServerMain.h */,
+				02AB4C0C0619196D00D4E28B /* ServerMain.m */,
+				02AB4C0E0619196D00D4E28B /* NetSocket.h */,
+				02AB4C0D0619196D00D4E28B /* NetSocket.m */,
+				02AB4C120619196D00D4E28B /* PSPacket.h */,
+				02AB4C110619196D00D4E28B /* PSPacket.m */,
+			);
+			name = NetworkCore;
+			sourceTree = "<group>";
+		};
+		02EB27600611234700F771DC /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				02EB27610611234700F771DC /* LogController.h */,
+				02EB27620611234700F771DC /* LogController.m */,
+				02EB27630611234700F771DC /* MainController.h */,
+				02EB27640611234700F771DC /* MainController.m */,
+			);
+			name = GUI;
+			path = Source/GUI;
+			sourceTree = "<group>";
+		};
+		02EB276F0611234E00F771DC /* PalaceCore */ = {
+			isa = PBXGroup;
+			children = (
+				02EB27700611234E00F771DC /* Local.h */,
+				02EB27790611234E00F771DC /* Structures.h */,
+				02EB289506112ECA00F771DC /* PalaceProtocol.h */,
+				02AB4B090618F85800D4E28B /* PalaceProtocol.m */,
+				02EB27710611234E00F771DC /* PSAsset.h */,
+				02EB27720611234E00F771DC /* PSAsset.m */,
+				02EB27730611234E00F771DC /* PSMansion.h */,
+				02EB27740611234E00F771DC /* PSMansion.m */,
+				02EB27750611234E00F771DC /* PSRoom.h */,
+				02EB27760611234E00F771DC /* PSRoom.m */,
+				02EB27770611234E00F771DC /* PSUser.h */,
+				02EB27780611234E00F771DC /* PSUser.m */,
+				021CAC2D061F26CF00A7A929 /* MansionScript.h */,
+				021CAC2E061F26CF00A7A929 /* MansionScript.m */,
+				021CAD19061F442000A7A929 /* PSHotSpot.h */,
+				021CAD1A061F442000A7A929 /* PSHotSpot.m */,
+				02A6FA0806231C6A00889E8C /* PSPropBag.h */,
+				02A6FA0906231C6A00889E8C /* PSPropBag.m */,
+				02BF3EAE0625B22800C6874C /* PSProp.h */,
+				02BF3EAF0625B22800C6874C /* PSProp.m */,
+			);
+			name = PalaceCore;
+			path = Source/PalaceCore;
+			sourceTree = "<group>";
+		};
+		02EB278A0611235400F771DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02EB278C0611235400F771DC /* Utilities.h */,
+				02EB278B0611235400F771DC /* Utilities.c */,
+			);
+			name = Utilities;
+			path = Source/Utilities;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				021CA559061CCB9900A7A929 /* Unused */,
+				02EB278A0611235400F771DC /* Utilities */,
+				02EB276F0611234E00F771DC /* PalaceCore */,
+				02EB27600611234700F771DC /* GUI */,
+				02EB273306111B2F00F771DC /* NetworkCore */,
+				02AB4A6C0618F38900D4E28B /* PSApplication.h */,
+				02AB4A6B0618F38900D4E28B /* PSApplication.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* CocoaPServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CocoaPServer */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CocoaPServer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CocoaPServer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB28D606112F7E00F771DC /* Utilities.h in Headers */,
+				02EB28D706112F7E00F771DC /* Local.h in Headers */,
+				02EB28D806112F7E00F771DC /* Structures.h in Headers */,
+				02EB28D906112F7E00F771DC /* PalaceProtocol.h in Headers */,
+				02EB28DA06112F7E00F771DC /* PSAsset.h in Headers */,
+				02EB28DB06112F7E00F771DC /* PSMansion.h in Headers */,
+				02EB28DC06112F7E00F771DC /* PSRoom.h in Headers */,
+				02EB28DD06112F7E00F771DC /* PSUser.h in Headers */,
+				02EB28DE06112F7E00F771DC /* LogController.h in Headers */,
+				02EB28DF06112F7E00F771DC /* MainController.h in Headers */,
+				8D1107280486CEB800E47090 /* CocoaPServer_Prefix.pch in Headers */,
+				02AB4A6E0618F38900D4E28B /* PSApplication.h in Headers */,
+				02AB4C160619196D00D4E28B /* NetSocket.h in Headers */,
+				02AB4C180619196D00D4E28B /* ServerMain.h in Headers */,
+				02AB4C1A0619196D00D4E28B /* PSPacket.h in Headers */,
+				021CAC2F061F26CF00A7A929 /* MansionScript.h in Headers */,
+				021CAD1B061F442000A7A929 /* PSHotSpot.h in Headers */,
+				02A6FA0A06231C6A00889E8C /* PSPropBag.h in Headers */,
+				02BF3EB00625B22800C6874C /* PSProp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* CocoaPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02075992085D4BF3003E5864 /* Build configuration list for PBXNativeTarget "CocoaPServer" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaPServer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = CocoaPServer;
+			productReference = 8D1107320486CEB800E47090 /* CocoaPServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 02075996085D4BF3003E5864 /* Build configuration list for PBXProject "CocoaPServer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CocoaPServer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* CocoaPServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EB28EF06112F9000F771DC /* Utilities.c in Sources */,
+				02EB28F006112F9000F771DC /* PSAsset.m in Sources */,
+				02EB28F106112F9000F771DC /* PSMansion.m in Sources */,
+				02EB28F206112F9000F771DC /* PSRoom.m in Sources */,
+				02EB28F306112F9000F771DC /* PSUser.m in Sources */,
+				02EB28F406112F9000F771DC /* LogController.m in Sources */,
+				02EB28F506112F9000F771DC /* MainController.m in Sources */,
+				02EB28F906112F9000F771DC /* main.m in Sources */,
+				02AB4A6D0618F38900D4E28B /* PSApplication.m in Sources */,
+				02AB4B0A0618F85800D4E28B /* PalaceProtocol.m in Sources */,
+				02AB4C140619196D00D4E28B /* ServerMain.m in Sources */,
+				02AB4C150619196D00D4E28B /* NetSocket.m in Sources */,
+				02AB4C190619196D00D4E28B /* PSPacket.m in Sources */,
+				021CAC30061F26CF00A7A929 /* MansionScript.m in Sources */,
+				021CAD1C061F442000A7A929 /* PSHotSpot.m in Sources */,
+				02A6FA0B06231C6A00889E8C /* PSPropBag.m in Sources */,
+				02BF3EB10625B22800C6874C /* PSProp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02075993085D4BF3003E5864 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/CocoaPServer_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CocoaPServer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		02075994085D4BF3003E5864 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/CocoaPServer_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CocoaPServer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		02075995085D4BF3003E5864 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/CocoaPServer_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = CocoaPServer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		02075997085D4BF3003E5864 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		02075998085D4BF3003E5864 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		02075999085D4BF3003E5864 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02075992085D4BF3003E5864 /* Build configuration list for PBXNativeTarget "CocoaPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02075993085D4BF3003E5864 /* Development */,
+				02075994085D4BF3003E5864 /* Deployment */,
+				02075995085D4BF3003E5864 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		02075996085D4BF3003E5864 /* Build configuration list for PBXProject "CocoaPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02075997085D4BF3003E5864 /* Development */,
+				02075998085D4BF3003E5864 /* Deployment */,
+				02075999085D4BF3003E5864 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
